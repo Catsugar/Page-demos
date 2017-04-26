@@ -2,7 +2,6 @@
 ## 存放一些以前做的单页小Demo
 <hr>
 
-* [瀑布流布局](https://catsuger.github.io/Page-demos/waterfall/index.html)
 * [图片悬停显示](https://catsuger.github.io/Page-demos/showPic/index.html)
 * [图片悬停伸展](https://catsuger.github.io/Page-demos/showPic/side.html)
 * [照片墙](https://catsuger.github.io/Page-demos/photowall/photowall.html)
@@ -14,4 +13,4 @@
 * [计时抽奖](https://catsuger.github.io/Page-demos/lottery/index.html)
 * [焦点图](https://catsuger.github.io/Page-demos/banner/banner.html)
 * [touch动画](https://catsuger.github.io/Page-demos/animation/index.html)
-
+* [瀑布流布局](https://catsuger.github.io/Page-demos/waterfall/index.html)
