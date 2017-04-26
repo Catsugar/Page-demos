@@ -1,5 +1,4 @@
 @charset "utf-8";
-/* CSS Document */
 
 *{
 	padding:0;
@@ -9,20 +8,16 @@
 	position:relative;
 	
 }
-
 .box{
 	padding:15px 0 0 15px;
 	float:left;
 	
 }
-
 .pic{
 	padding:10px;
 	border:2px solid #ccc;
 	border-radius:5px;
-	box-shadow:0 0 5px #ccc;
-	
-	
+	box-shadow:0 0 5px #ccc;	
 }
 .pic img{
 	width:200px;
