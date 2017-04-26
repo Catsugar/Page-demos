@@ -1,0 +1,142 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>顶部按钮布局</title>
+<link type="text/css" rel="stylesheet" href="style.css">
+<script type="text/javascript">
+window.onload=function(){
+	var listBtn=document.getElementById("btn1");
+	var picBtn=document.getElementById("btn2");
+	var frameBox=document.getElementById("framebox");
+	var Box=document.getElementById("box");
+    listBtn.onclick=function(){
+		//改变按钮
+		listBtn.className="btn-list-on";
+		picBtn.className="btn-pic-off";
+		frameBox.className="listbox";
+		Box.style.height="auto";
+	}
+    picBtn.onclick=function(){
+		//改变按钮
+		listBtn.className="btn-list-off";
+		picBtn.className="btn-pic-on";
+		frameBox.className="picbox";
+		Box.style.height="980px";
+	}
+
+}
+
+</script>
+</head>
+
+<body>
+<div id="box" >
+	<div class="button">
+    	<a href="#" title="列表模式" id="btn1" class="btn-list-off"></a>
+    	<a href="#" title="卡片模式" id="btn2" class="btn-pic-on"></a>
+    </div>
+    <div id="framebox" class="picbox">
+     <ul>
+      <li>
+        <div>
+            <a href="#"><img src="1.jpg" alt="pic" class="photo"></a>
+            <a href="">温情</a>
+            <p><span>妙手回天 一朝日落不求能幸免</span><span>炎阳烈焰 再多矜傲已是灰飞烟灭
+</span></p>
+            <button>关注他</button>
+        </div>
+      </li>
+      <li>
+        <div>
+            <a href="#"><img src="2.jpg" alt="pic" class="photo"></a>
+            <a href="">绵绵</a>
+            <p><span>插科打诨风流言论</span><span>倒是涨红了脸好个 天真</span></p>
+            <button>关注他</button>
+        </div>
+      </li>
+      <li>
+        <div>
+            <a href="#"><img src="3.jpg" alt="pic" class="photo"></a>
+            <a href="">江澄</a>
+            <p><span>纵然禀赋不如 怎甘愿认输</span><span>纵然天地孑然 无处放声哭</span></p>
+            <button>关注他</button>
+        </div>
+      </li>
+      <li>
+        <div>
+            <a href="#"><img src="4.jpg" alt="pic" class="photo"></a>
+            <a href="">蓝思追</a>
+            <p><span>糯米粥含口入</span><span>熟悉辛味是何故</span></p>
+            <button>关注他</button>
+        </div>
+      </li>
+      <li>
+        <div>
+            <a href="#"><img src="5.jpg" alt="pic" class="photo"></a>
+            <a href="">金凌</a>
+            <p><span>眉间这点丹砂轮不着外人管教</span><span>仙中牡丹天生该骄傲</span></p>
+            <button>关注他</button>
+        </div>
+      </li>
+      <li>
+        <div>
+            <a href="#"><img src="6.jpg" alt="pic" class="photo"></a>
+            <a href="">江厌离</a>
+            <p><span>添碗 莲藕排骨 唤声阿羡</span><span>可有谁泪入嗓眼
+</span></p>
+            <button>关注他</button>
+        </div>
+      </li>
+      <li>
+        <div>
+            <a href="#"><img src="7.jpg" alt="pic" class="photo"></a>
+            <a href="">蓝忘机</a>
+            <p><span>也曾按捺心思 避尘循礼数 </span><span>也曾撩动一曲 杯酒醉姑苏</span></p>
+            <button>关注他</button>
+        </div>
+      </li>
+      <li>
+        <div>
+            <a href="#"><img src="8.jpg" alt="pic" class="photo"></a>
+            <a href="">魏无羡</a>
+            <p><span>也曾随心所愿 潇洒作顽徒</span><span>也曾剖还金丹 陈情太辛苦 </span></p>
+            <button>关注他</button>
+        </div>
+      </li>
+      <li>
+        <div>
+            <a href="#"><img src="9.jpg" alt="pic" class="photo"></a>
+            <a href="">金光瑶</a>
+            <p><span>纵然人前人后 玩弄有权术</span><span>纵然欺世盗名 何尝不歹毒</span></p>
+            <button>关注他</button>
+        </div>
+      </li>
+      <li>
+        <div>
+            <a href="#"><img src="10.jpg" alt="pic" class="photo"></a>
+            <a href="">蓝曦臣</a><p><span>一宗之主名列三尊</span><span>温雅天性或有诸多 不忍</span></p>
+            <button>关注他</button>
+        </div>
+      </li>
+      <li>
+        <div>
+            <a href="#"><img src="11.jpg" alt="pic" class="photo"></a>
+            <a href="">聂明玦</a>
+            <p><span>盖世威名恨不得斩尽眼前宵小</span><span>戾气愈深重心愈狂躁</span></p>
+            <button>关注他</button>
+        </div>
+      </li>
+      <li>
+        <div>
+            <a href="#"><img src="12.jpg" alt="pic" class="photo"></a>
+            <a href="">聂怀桑</a>
+            <p><span>都笑我是糊涂</span><span>大智若愚锋藏处</span></p>
+            <button>关注他</button>
+        </div>
+      </li>
+    </ul>
+    </div>
+</div>
+</body>
+</html>

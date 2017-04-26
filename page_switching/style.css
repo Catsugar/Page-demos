@@ -1,0 +1,105 @@
+@charset "utf-8";
+/* CSS Document */
+/*********************************图片样式下*************************/
+*{margin:0px;
+  padding:0px;
+  font: 14px/1.1 "微软雅黑";}
+ul{list-style:none;}
+a{text-decoration:none;}
+#box{
+	height:980px;
+	width:770px;
+	border:#C00 solid 3px;
+	margin:50px auto;
+	padding:0 10px;}
+.button{
+	height:40px;}
+.button a{
+	height:16px;
+	width:16px;
+	float:right;
+	margin-top:10px;
+	margin-right:10px;
+	display:block;}
+.btn-list-off{
+	background:#fff url(btns.jpg) no-repeat -38px 0px;}
+.btn-pic-on{
+	background:#fff url(btns.jpg) no-repeat -21px -34px;}
+.btn-list-on{
+	background:#fff url(btns.jpg) no-repeat -21px 0px;}
+.btn-pic-off{
+	background:#fff url(btns.jpg) no-repeat -38px -32px;}
+.picbox ul li{
+	height:300px;
+	width:180px;
+	border:#aaa solid 1px;
+	margin:5px;
+	float:left;
+	overflow:hidden;}
+.picbox{
+	height:auto;}
+p a,p span{
+	display:block;
+	padding:0 2px;
+	color:#333;}
+.picbox ul li div a img{
+	height:180px}
+.picbox ul li a{
+	display:block;
+	width:180px;
+	text-align:center;
+    font-weight:bold;
+    color:#C00;}
+.picbox ul li div{
+	position:relative;}
+.picbox ul li div button{
+	height:40px;
+	width:100%;
+	position:absolute;
+	top:240px;
+	font-size:18px;
+	color:#FFF;
+	background:#C00;
+	border:#aaa solid 1px;
+	border-radius:4px;}
+/*********************************list样式下*************************/
+.listbox{
+	width:750px;
+	}
+.listbox ul li{
+	width:100%;
+	border:#aaa solid 1px;
+	margin:5px;
+	overflow:hidden;
+	height:100px;}
+.listbox ul li p,button{
+	margin-top:20px;
+	margin-right:20px;}
+.listbox ul li a{
+	display:block;
+	float:left;
+	width:100px;
+	margin-right:30px;
+	font-weight:bold;
+	font-size:18px;
+	color:#F00;
+	line-height:60px;
+	margin:auto 0;
+	text-align:center;}
+.listbox ul li p{
+	display:inblock;
+	float:left;
+	width:400px;
+	margin-right:30px;}
+.listbox ul li button{
+	padding-left:15px;
+	padding-right:15px;
+	height:40px;
+	float:right;
+	font-size:18px;
+	color:#FFF;
+	background:#C00;
+	border:#aaa solid 1px;
+	border-radius:5px;}
+.listbox ul li div a img{
+	height:100px}

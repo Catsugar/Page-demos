@@ -1,0 +1,107 @@
+@charset "utf-8";
+body{
+	font-family:"微软雅黑";
+	color:#333;
+	background-color:rgba(204,204,204,0.6);}
+	
+h1{
+	text-align:center;
+	text-shadow: 3px 1px 3px #fff;
+}
+.container{
+	margin:50px 50px;
+}
+img{
+	padding:10px 10px 15px;
+	background-color:#fff;
+	border:1px solid #333;
+	box-shadow: 3px 4px 3px rgba(0,0,0,0.4);
+	border-radius:3px;
+	position:absolute;
+	-moz-transition:2s;
+	transition:2s;
+	-webkit-transition:2s;}
+img:hover{
+	transform:rotate(0deg);
+	-moz-transform:rotate(0deg);
+	-webkit-transform:rotate(0deg);
+	transform:scale(1.2);
+	-moz-transform:scale(1.2);
+	-webkit-transform:scale(1.2);
+	z-index:10;}
+	
+.pic7{
+	transform:rotate(25deg);
+	-moz-transform:rotate(25deg);
+	-webkit-transform:rotate(25deg);
+	z-index:2;}
+.pic1{
+	transform:rotate(-10deg);
+	-moz-transform:rotate(-10deg);
+	-webkit-transform:rotate(-10deg);
+	top:10px;
+	left:280px;
+	z-index:3;}
+.pic5{
+	transform:rotate(-10deg);
+	-moz-transform:rotate(-10deg);
+	-webkit-transform:rotate(-10deg);
+	top:150px;
+	left:500px;}
+.pic3{
+	transform:rotate(10deg);
+	-moz-transform:rotate(10deg);
+	-webkit-transform:rotate(10deg);
+	top:60px;
+	left:800px;}
+.pic2{
+	transform:rotate(-15deg);
+	-moz-transform:rotate(-15deg);
+	-webkit-transform:rotate(-15deg);
+	top:400px;
+	left:400px;}
+.pic10{
+	transform:rotate(10deg);
+	-moz-transform:rotate(10deg);
+	-webkit-transform:rotate(10deg);
+	top:400px;
+	left:130px;}
+.pic11{
+	transform:rotate(5deg);
+	-moz-transform:rotate(5deg);
+	-webkit-transform:rotate(5deg);
+	top:220px;
+	left:940px;}
+.pic12{
+	transform:rotate(25deg);
+	-moz-transform:rotate(25deg);
+	-webkit-transform:rotate(25deg);
+	top:400px;
+	left:1050px;}
+.pic4{
+	transform:rotate(10deg);
+	-moz-transform:rotate(10deg);
+	-webkit-transform:rotate(10deg);
+	top:300px;
+	left:60px;}
+.pic6{
+	transform:rotate(10deg);
+	-moz-transform:rotate(10deg);
+	-webkit-transform:rotate(10deg);
+	top:200px;
+	left:700px;}
+.pic8{
+	transform:rotate(10deg);
+	-moz-transform:rotate(10deg);
+	-webkit-transform:rotate(10deg);
+	top:450px;
+	left:700px;}
+.pic9{
+	transform:rotate(10deg);
+	-moz-transform:rotate(10deg);
+	-webkit-transform:rotate(10deg);
+	top:300px;
+	left:500px;}
+
+
+

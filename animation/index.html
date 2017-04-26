@@ -1,0 +1,89 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>动画案例</title>
+
+<style>
+
+
+#move{
+	background:#CCC;
+	width:400px;
+	heigh:400px;
+}
+
+	
+#move a{
+	display:inline-block;
+    width:120px;
+	height:130px;
+	border:1px solid #000;
+	border-radius:3px;
+	background-color:#fff;
+	text-align:center;
+	margin:2px;
+	position:relative;
+	padding-top:10px;
+	font-size:12px;
+	color:#063;	
+	text-decoration:none;
+	line-height:10px;
+	overflow:hidden;
+}
+#move a i{
+	position:absolute;
+	top:20px;
+	left:0;
+	display:inline-block;
+	width:100%;
+	text-align:center;
+	filter:alpha(opacity=100);
+	opacity:1;
+}
+#move a:hover{
+	color:#F00;}
+
+#move img{
+	border:none;}
+	
+	
+	
+	
+</style>
+
+<script src="js/jquery-3.1.0.js"></script>
+<script>
+$(function(){
+  $('#move a').mouseenter(function(){
+	 $(this).find('i').animate({top:"-20px",opacity:"0.2"},300,function(){
+	 $(this).css({top:"30px"});
+	 $(this).animate({top:"20px",opacity:"1"},200)	
+	 });
+  });
+});
+
+
+	
+</script>
+
+
+</head>
+
+<body>
+
+<div id="move">
+     <a href="#"><i><img src="image/image1.jpg"/></i><p></p></a>
+     <a href="#"><i><img src="image/image2.jpg"/></i><p></p></a>
+     <a href="#"><i><img src="image/image3.jpg"/></i><p></p></a>
+     <a href="#"><i><img src="image/image4.jpg"/></i><p></p></a>
+     <a href="#"><i><img src="image/image5.jpg"/></i><p></p></a>
+     <a href="#"><i><img src="image/image6.jpg"/></i><p></p></a>
+     <a href="#"><i><img src="image/image7.jpg"/></i><p></p></a>
+     <a href="#"><i><img src="image/image8.jpg"/></i><p></p></a>
+     <a href="#"><i><img src="image/image9.jpg"/></i><p></p></a>
+
+</div>
+
+</body>
+</html>
