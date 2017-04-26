@@ -1,0 +1,135 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>动画案例</title>
+<script type="text/javascript" src="side.js"></script>
+<style>
+body{
+	color:#333;
+	font-family:"微软雅黑";
+	background-color:rgba(204,204,204,0.8);}
+h1{text-align:center;
+    text-shadow:2px 2px 2px rgba(0,0,0,0.4);}
+#box{margin:10px 50px;}
+a{
+	text-decoration:none;
+	color:#FFF;
+	font-weight:bold;}
+#box>div:first-child{
+	border-bottom-left-radius:5px;
+	border-top-left-radius:5px;
+}
+#box>div:last-child{
+	border-bottom-right-radius:5px;
+	border-top-right-radius:5px;
+}
+.col{
+	display:inline-block;
+    width:100px;
+	height:250px;
+	border:1px solid #000;
+	/*border-radius:5px;*/
+	position:relative;
+	overflow:hidden;
+	transition:width 1s;}
+.select{
+	border-radius:5px;
+	box-shadow:3px 4px 3px rgba(0,0,0,0.6);
+	/*transform:rotateY(30deg);
+	-o-transform:rotateY(30deg);
+	-moz-transform:rotatey(30deg);
+	-webkit-transform:rotateY(30deg);*/
+}
+.col div{
+	position:absolute;
+	top:250px;
+	/*background-color:rgba(0,0,0,0.7);*/
+	background: -webkit-linear-gradient(rgba(0,0,0,0.7),rgba(196,196,196,0.7)); 
+    background: -o-linear-gradient(rgba(0,0,0,0.7),rgba(196,196,196,0.7)); 
+    background: -moz-linear-gradient(rgba(0,0,0,0.7),rgba(196,196,196,0.7)); 
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(196,196,196,0.7)); /* 标准的语法 */
+	width:250px;
+	height:250px;
+	}
+#box a>span:first-child{
+	margin-top:100px;}
+#box a span{
+	width:100%;
+	font-size:16px;
+	line-height:25px;
+	text-align:center;
+	display:block;}
+#box img{
+	border:none;}
+	
+	/*transform:scale(1.2);
+	-moz-transform:scale(1.2);
+	-webkit-transform:scale(1.2);*/
+}
+</style>
+<script>
+</script>
+</head>
+<body>
+<h1>魔道祖师</h1>
+<div id="box">
+   <div class="col" id="pic1">
+     <img src="1.jpg">
+     <div>
+     <a href="#">
+     <span>妙手回天 一朝日落不求能幸免</span><span>炎阳烈焰 再多矜傲已是灰飞烟灭</span>
+     </a></div>
+   </div>
+   <div class="col" id="pic2">
+     <img src="2.jpg">
+     <div>
+     <a href="#">
+     <span>插科打诨风流言论</span><span>倒是涨红了脸好个 天真</span>
+     </a></div>
+   </div>
+   <div class="col" id="pic3">
+     <img src="3.jpg" class="changimg">
+     <div>
+     <a href="#"><span>纵然禀赋不如 怎甘愿认输</span><span>纵然天地孑然 无处放声哭</span></a></div>
+   </div>
+   <div class="col" id="pic4">
+     <img src="4.jpg">
+     <div>
+     <a href="#"><span>糯米粥含口入</span><span>熟悉辛味是何故</span></a></div>
+   </div>
+   <div class="col" id="pic5">
+     <img src="5.jpg">
+     <div>
+     <a href="#"><span>眉间这点丹砂轮不着外人管教</span><span>仙中牡丹天生该骄傲</span></a></div>
+   </div>
+   <div class="col" id="pic6">
+     <img src="6.jpg">
+     <div>
+     <a href="#"><span>添碗 莲藕排骨 唤声阿羡</span><span>可有谁泪入嗓眼</span></a></div>
+   </div>
+   <div class="col" id="pic7">
+     <img src="7.jpg">
+     <div>
+     <a href="#"><span>也曾按捺心思 避尘循礼数 </span><span>也曾撩动一曲 杯酒醉姑苏</span></a></div>
+   </div>
+   <div class="col" id="pic8">
+     <img src="8.jpg">
+     <div>
+     <a href="#"><span>也曾随心所愿 潇洒作顽徒</span><span>也曾剖还金丹 陈情太辛苦 </span></a></div>
+   </div>
+   <div class="col" id="pic9">
+     <img src="9.jpg">
+     <div>
+     <a href="#"><span>纵然人前人后 玩弄有权术</span><span>纵然欺世盗名 何尝不歹毒</span></a></div>
+   </div>
+   <div class="col" id="pic10">
+     <img src="10.jpg">
+     <div>
+     <a href="#"><span>一宗之主名列三尊</span><span>温雅天性或有诸多 不忍</span></a></div>
+     </div>
+   </div>
+</div>
+
+</body>
+</html>
