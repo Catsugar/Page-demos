@@ -13,4 +13,5 @@
 * [计时抽奖](https://catsugar.github.io/Page-demos/lottery/index.html)
 * [焦点图](https://catsugar.github.io/Page-demos/banner/banner.html)
 * [touch动画](https://catsugar.github.io/Page-demos/animation/index.html)
-* [瀑布流布局](https://catsugar.github.io/Page-demos/waterfall/index.html)
+* [瀑布流布局](https://catsugar.github.io/Page-demos/waterfall/index.html),
+* [计算器](https://catsugar.github.io/Page-demos/calculator/calculator.html)

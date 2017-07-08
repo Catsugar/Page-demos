@@ -1,0 +1,39 @@
+body{
+  background:-webkit-linear-gradient(left top, #999, #CCC);
+  font:bold 16px/60px Verdana, Geneva, sans-serif;
+  text-align:center;}
+.container{
+	width:320px;
+	height:500px;
+	position:absolute;
+	top:50%;
+	left:50%;
+	margin:-250px 0 0 -200px;
+	border:1px solid #666;
+	border-radius:10px;
+	background-color:#eee;
+	box-shadow: 0 0 30px #333333;
+	padding:0 40px;}
+.container:hover{box-shadow: 0 0 60px #333;}
+h1{
+	color:#666;
+	font: bold 25px/30px Verdana, Geneva, sans-serif;}
+.showbox{
+	width:100%;
+    height:65px;}
+.showbox input{
+	width:92%;
+	height:50px;
+	background-color:#FFF;
+	margin:0 auto;
+	font:bold 20px/60px "微软雅黑";
+	text-align:right;}
+.keybox{width:100%;}
+.keybox button{
+	width:60px;
+	height:55px;
+	margin:7px;
+    background-color:#fff;
+	border-radius:10px;
+	color:#666;
+	font:bold 20px/55px "微软雅黑";}
