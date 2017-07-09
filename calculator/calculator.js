@@ -1,6 +1,7 @@
 var ans = "";
 var clear = false;
 var calc = "";
+//公用
 $(document).ready(function() {
   $("button").click(function() {
     var text = $(this).attr("value");
